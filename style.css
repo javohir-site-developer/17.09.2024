@@ -1,0 +1,308 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #2b2b2b;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+  padding-top: 100px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  gap: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+.btn-solid {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  background: #a259ff;
+  width: 150px;
+  color: #fff;
+  height: 45px;
+  top: 20px;
+  left: 45px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  opacity: 0px;
+  border: none;
+}
+.navigation {
+  display: flex;
+  gap: 30px;
+  margin-left: 300px;
+  margin-right: 50px;
+}
+.header {
+  display: flex;
+}
+.number {
+  color: white;
+}
+.type {
+  color: grey;
+}
+.wrapper {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.btn-border {
+  background-color: #a259ff;
+  color: #fff;
+  border: none;
+  width: 186px;
+  height: 100px;
+  top: 132px;
+  left: 45px;
+  padding: 10px 50px 10px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  opacity: 0px;
+}
+.btn-border:active {
+  color: #a259ff;
+  background-color: #2b2b2b;
+  border: 1px solid #a259ff;
+}
+.hero-second {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.paragraph {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  text-align: left;
+  color: #fff;
+  width: 510px;
+  gap: 0px;
+  opacity: 0px;
+}
+.btn-get {
+  width: 224px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  opacity: 0px;
+  background-color: #a259ff;
+  color: #fff;
+  border: none;
+  margin-right: 348px;
+  margin-top: 20px;
+}
+.btn-get:active {
+  background-color: #fff;
+  color: #a259ff;
+  border: 1px solid #a259ff;
+}
+
+.header-2 {
+  width: 1050px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+}
+
+.discover {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.header-4 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 45.6px;
+  text-align: left;
+  width: 763px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+}
+.paragraf {
+  width: 763px;
+  height: 46px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35.2px;
+  color: white;
+  text-align: left;
+}
+.avatar {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  color: white;
+}
+.cosmos {
+  color: white;
+}
+.cost {
+  color: grey;
+}
+.border {
+  gap: 83px;
+  padding-top: 35px;
+  display: flex;
+  text-align: center;
+}
+.wrappe {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+}
+
+.images {
+  margin-left: 8px;
+  margin-top: 3px;
+}
+.btn-line {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 22.4px;
+  text-align: center;
+  background: #2b2b2b;
+  width: 150px;
+  color: #a259ff;
+  height: 45px;
+  top: 20px;
+  left: 45px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  opacity: 0px;
+  border: 1px solid #a259ff;
+  border: none;
+}
+.btn-line:active {
+  background-color: #a259ff;
+  color: #fff;
+}
+.Created {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.box-bor {
+  width: 350px;
+  height: 500px;
+  background-color: #4a4949;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.planshet {
+  display: none;
+}
+
+.footer {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #434343;
+  gap: 89px;
+}
+.h-first {
+  width: 95px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+}
+.h-third {
+  width: 297px;
+  height: 35px;
+  gap: 0px;
+  opacity: 0px;
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35.2px;
+  text-align: left;
+}
+.mono {
+  color: grey;
+}
+.font {
+  color: grey;
+  width: 330px;
+  height: 44px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.4px;
+  text-align: left;
+}
+.line {
+  display: flex;
+  gap: 89px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+  .btn-solid {
+    margin-left: 100;
+  }
+  .planshet {
+    display: block;
+  }
+  .laptop {
+    display: none;
+  }
+}
+@media only screen and (max-width: 870px) {
+}
+@media only screen and (max-width: 600px) {
+}
